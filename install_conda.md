@@ -60,7 +60,7 @@ BiocManager::install(c('org.Hs.eg.db', 'org.Mm.eg.db'))
 devtools::install_github("cole-trapnell-lab/garnett", ref="monocle3")
 ```
 
-That should be it! To be safe, test to see if the libraries will load. (Note that CellAssign was already installed by conda.)
+That should be it! To be safe, test to see if the libraries will load. *(Note that CellAssign was already installed by conda.)*
 
 ```R
 library(cellassign)
