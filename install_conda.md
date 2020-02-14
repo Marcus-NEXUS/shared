@@ -1,4 +1,4 @@
-### Install Miniconda, set up a conda environment, and install Garnett 
+### Install Miniconda, set up a conda environment, and install Garnett on Euler
 
 ---
 
