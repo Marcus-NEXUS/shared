@@ -48,7 +48,7 @@ Start by activating the conda environment with `conda activate cell_typing` (or 
 
 ##### Launching R
 
-You should now be able to launch R in the command line with `R`, or RStudio with `rstudio` (note that RStudio requires something called 'Xforwarding', so if it doesn't work, make sure that you are adding the parameter `-Y` when you ssh into Euler, e.g. `ssh -Y username@euler.ethz.ch`)
+You should now be able to launch R in the command line with `R`, or RStudio with `rstudio` (note that RStudio requires something called 'X11 forwarding', so if it doesn't work, make sure that you are adding the parameter `-Y` when you ssh into Euler, e.g. `ssh -Y username@euler.ethz.ch`)
 
 ##### Tools to install in R
 
