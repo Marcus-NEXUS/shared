@@ -20,6 +20,8 @@ When completed, test by running the command `which python`. It should point to a
 
 #### 2. Create `conda` environment
 
+##### Check the YML file
+
 The YML file provided will tell conda to create an environment with the packages it specifies.
 
 ##### IMPORTANT: First, make sure to change the path in the YML file telling conda where to create the environment.
@@ -30,6 +32,8 @@ Then go to the last line and change what follows `prefix` to where your minicond
 
 ###### This time, it was already changed in advance, but you can still change the name of the environment if you like (changing it in both the first and last lines of the script).
 
+##### Create the conda environment
+
 To create a new conda environment from the YML file, run:
 
 `conda env create -f /cluster/project/nexus/marcus/for_lars/install_miniconda/cell_typing-environment.yml `
@@ -38,9 +42,15 @@ To create a new conda environment from the YML file, run:
 
 #### 3. Install Garnett in R
 
+##### Activate the new conda environment
+
 Start by activating the conda environment with `conda activate cell_typing` (or whatever the name of the environment is).
 
+##### Launching R
+
 You should now be able to launch R in the command line with `R`, or RStudio with `rstudio` (note that RStudio requires something called 'Xforwarding', so if it doesn't work, make sure that you are adding the parameter `-Y` when you ssh into Euler, e.g. `ssh -Y username@euler.ethz.ch`)
+
+##### Tools to install in R
 
 In R, run the following:
 
